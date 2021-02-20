@@ -1,0 +1,110 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* page header */
+.page-header {
+    padding-top: 100px;
+}
+.page-header-group {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.page-header-intro {
+    font-size: 1.75rem;
+    line-height: 1;
+    text-align: center;
+}
+.name {
+    font-weight: bold;
+    font-size: 3rem;
+}
+.header-image {
+    height: 500px;
+    width: 500px;
+}
+/* gradient-wave */
+.gradient {
+    background: rgb(244,249,249);
+    background: linear-gradient(90deg, rgba(244,249,249,1) 14%, rgba(204,242,244,1) 47%, rgba(164,235,243,1) 95%);
+}
+
+/* About Me Section */
+#aboutMe {
+    padding: 80px 0 0;
+}
+#aboutMe h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.profile-image {
+    height: 400px;
+    width: 300px;
+    border-radius: 5%;
+}
+.profile-description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Service Section */
+#services {
+    font-family: sans-serif;
+    text-align: center;
+   
+}
+#services h1 {
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+#services h5 {
+    font-weight: bold;
+}
+
+#services img {
+        height: 250px;
+        width: 250px;
+}
+.service-detail {
+    margin-top: 20px;
+}
+
+/* contact Section */
+#contact {
+    text-align: center;
+}
+#contact h1 {
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+#contact img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+#contact a, p {
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+@media only screen and (min-width:367px) {
+    .header-image {
+        height: 300px;
+        width: 300px;
+    }
+    .contact-details {
+        margin-top: 30px;
+    }
+}
